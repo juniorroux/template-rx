@@ -22,8 +22,7 @@
 				<?php else : ?>
 					<span><a href="<?php echo get_bloginfo('url') ?>" class="header-logo">Junior <span>Roux</span></a></span>
 				<?php endif; ?>
-			</div>
-			<div class="col">
+
 				<nav class="menu">
 					<ul>
 						<li><a href="#">Home</a></li>
@@ -32,8 +31,9 @@
 						<li><a href="#">Contato</a></li>
 					</ul>
 				</nav>
-
-				<div class="social">
+			</div>
+			<div class="col">
+				<div class="header-social">
 					<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -43,3 +43,10 @@
 			</div>
 		</div>
 	</header>
+
+	<div class="grid">
+		<form action="#" class="search box" method="post">
+			<input class="search-input" type="search" name="q" placeholder="Digite sua pesquisa..." required>
+			<button class="search-button" type="submit">Pesquisar</button>
+		</form>
+	</div>
